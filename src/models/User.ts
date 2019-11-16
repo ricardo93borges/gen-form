@@ -1,4 +1,4 @@
-import { text, number, email, password, tel, date } from './decorator';
+import { text, number, email, password, tel, date } from '../gen-form/decorator';
 
 export default class User {
 

@@ -1,3 +1,3 @@
-import User from './components/User'
+import User from './models/User'
 
 console.log(User)

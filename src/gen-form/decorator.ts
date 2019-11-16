@@ -21,5 +21,5 @@ export function password(target: Object, propertyKey: string | symbol) {
 }
 
 export function tel(target: Object, propertyKey: string | symbol) {
-    Reflect.defineMetadata("fg:password", "password", target, propertyKey);
+    Reflect.defineMetadata("fg:tel", "tel", target, propertyKey);
 }
